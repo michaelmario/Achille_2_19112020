@@ -1,13 +1,13 @@
-# Début de formation le 15/11/202
+# Début de formation le 15/11/2020
 
-👤 **Michal Mario ACHILLE**
-## Projet 2 - Transformez une maquette en site web du parcours Developpeur Web avec OpenClassrooms
+👤 **Michal Mario ACHILLE**(https://porfolio-micheal-achille.firebaseapp.com/)
+* Projet 2 - Transformez une maquette en site web du parcours Developpeur Web avec OpenClassrooms
 
-## Compétences évaluées 
+** Compétences évaluées 
 
-## Intégrer du contenu conformément à une maquette
+** Intégrer du contenu conformément à une maquette
 
-## Mettre en place son envoronement Front-End
-## Utiliser un système de gestion de versions pour le suivi du projet et son hébergement
+** Mettre en place son envoronement Front-End
+** Utiliser un système de gestion de versions pour le suivi du projet et son hébergement
 
-## mplémenter une interface responsive
+** implémenter une interface responsive
