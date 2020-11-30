@@ -1,19 +1,75 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reservia</title> 
-    <meta name="description"
-        content="Site Réservia, création du site réservia du projet2 web dev de openclassroom">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
-     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-      
-      <link href="./css/style.css" rel="stylesheet" > 
-      <link href="./css/media.css" rel="stylesheet" > 
-    
- </head>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reservia</title>
+  <meta name="description" content="Site Réservia, création du site réservia du projet2 web dev de openclassroom">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+  <link href="./css/style.css" rel="stylesheet">
+  <link href="./css/media.css" rel="stylesheet">
+</head>
 <body>
+  <!--- Nav -->
+  <nav>
+    <ul>
+      <li><img src="images/logo/Reservia.svg" alt="Logo Reservia"></li>
+      <li><a href="#" class="active">Hébergements</a></li>
+      <li><a href="#">Activités</a></li>
+      <li><a href="#" class="active">S'incrire</a></li>
+    </ul>
+  </nav>
+  <span class="separation">
+    <hr /></span>
+  <!--decriptionTitle-->
+  <section class="descriptionTitle">
+    <h1> Trouver votre hébergement pour des vacanes de reve </h1>
+    <p> En plein centre ville ou en pleine nature</p>
+  </section>
+  <!--Search Input-->
+  <section class="searchInput">
+    <i class="fas fa-map-marker-alt"></i>
+    <input type="search" class="search" placeholder='Marseille, France'>
+
+    <button type="button" class="btn_recherche">
+      <span class="btnSpanRecherche">Recherche</span>
+      <span class="searchIcon"><i class="fas fa-search"></i></span>
+    </button>
+  </section>
+  <!--Filter Container-->
+  <section class="filterContainer">
+    <h1>Filtres</h1>
+    <div class="firtsBtn">
+      <div class="liBtn">
+        <i class="fas fa-money-bill-wave"></i>
+        <span>Economique</span>
+
+      </div>
+      <div class="liBtn">
+        <i class="fas fa-child"></i>
+        <span>Familial</span>
+      </div>
+    </div>
+    <div class="liBtn">
+      <i class="fas fa-heart"></i>
+      <span>Romantique</span>
+    </div>
+    <div class="liBtn lastchild">
+      <i class="fas fa-dog"></i>
+      <span>Animaux autorisés</span>
+    </div>
+    </ul>
+
+  </section>
+  <section class="information">
+    <div class="round-btn">
+      <i class="fas fa-info"></i>
+    </div>
+    <p> Plus de 500 logements sont disponible dans cette ville
+    </p>
+  </section>
 </body>
+
 </html>

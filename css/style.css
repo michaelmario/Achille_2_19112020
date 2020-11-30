@@ -1,0 +1,251 @@
+/*==Variables===*/
+:root {
+    --blue: #0065fc;
+    --lightBlue: #deebff85;
+    --bgColor: #f2f2f2;
+  }
+  /**Reset**/
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /*==Base css==*/
+  body,
+  p,
+  a,
+  ul,
+  li {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+  }
+  body {
+    background-color: var(--bgColor);
+    font-size: 16px;
+    font-size: 1rem;
+    height:100%;
+  }
+  section {  
+  margin:20px 0px;
+   } 
+  li {
+    list-style-type: none;
+  }
+ a{
+    color:#000;
+ }
+ hr{
+   color:var(--blue);
+ }
+ 
+ nav {
+  margin-top: 0px;
+  padding-top:20px;
+  width: 50%;
+  padding-bottom:33px;
+}
+nav a {
+  padding: 11px 24px;
+}
+nav li a:hover {
+  padding-top: 20px;
+  border-top: 1px solid var(--blue);
+  transition: all 0.4s;
+}
+.active {
+  color: var(--blue);
+}
+
+.separation{
+ display:block;  
+ width:85%;
+ margin-left:20px;
+}
+
+ .descriptionTitle{
+  display:flex; 
+ margin:20px 20px;
+ }
+ 
+
+.descriptionTitle h1{
+  padding-bottom:10px;
+  
+}
+/*Search Input*/
+
+.searchInput 
+{
+    display: flex;   
+    margin-bottom: 3%;
+    margin:auto 20px;
+}
+::placeholder{
+  font-size:1rem;
+  color:#000 !important;
+  font-weight: bolder;
+ }
+.fa-map-marker-alt 
+{
+    padding: 16.5px 19px;
+    background-color: #e5e2e267;
+    border: 1px solid #f2f2f2;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.search 
+{   
+   width:65%;
+    height: 51px;
+    border: none;
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    text-align: center;
+     
+   
+}
+.btn_recherche 
+{
+    border: none;
+    width: 50px;
+    height: 51px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #0065fc;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+   
+}
+
+.btn_recherche:hover 
+{
+    color: #0065fc;
+    background-color: #deebff;
+    border: 1px solid #0065fc;
+    cursor: pointer;
+}
+
+ .btnSpanRecherche{
+   display:none;
+ }
+ .searchIcon{
+   display:block;
+ }
+/*=== Filter Container ===*/
+.filterContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+     margin:20px 20px;
+  }
+  .filterContainer h1{
+  line-height: 3;
+  font-size:1.2rem;
+  }
+  .firtsBtn{
+    display: flex;
+    flex-direction: row;
+  }
+  .liBtn{
+    display:flex;
+    width:172px;
+    height:50px;
+    font-size: 15px;
+    font-weight:bolder;
+    border-radius: 25px;
+    border:1px solid #ccc;
+    cursor: pointer;
+  }
+  .liBtn i {
+   position: relative;
+    left: -1px;
+    top: -20px;
+    font-size: large;
+    color: #0065fc;
+    background-color: var(--lightBlue);
+    border-radius: 50%;
+    width: 50px;
+    height: 47px;
+    padding: 15px 11px;
+    margin-right: 0px;
+  }
+  .liBtn:hover{
+  background-color:var(--lightBlue);
+  transition: all 0.4s;
+  }
+  #btnFilter1 {
+    width: 185px;
+  }
+  #btnFilter2 {
+    width: 130px;
+  }
+  
+  
+  .liContainerBtn {
+    position: relative;
+    margin-top:10px;
+    
+  }
+  .liContainerBtn i {
+    position: absolute;
+    left: 4px;
+    top: 1px;
+    font-size: large;
+    color: #0065fc;
+    background-color: var(--lightBlue);
+    border-radius: 50%;
+    width: 50px;
+    height: 47px;
+    padding: 15px 15px;
+    margin-right: 10px;
+  }
+  .btnFilter {
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    background-color: transparent;
+    font-size: 1.1em;
+    text-align: center;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  .btnFilter:hover{
+    color: #0065fc;
+    background-color: #deebff;
+  }
+  
+  #btnFilter3 {
+    width: 196px;
+  }
+  #btnFilter4 {
+    width: 250px;
+  }
+  
+  .information{
+   display:flex; 
+    margin-left:20px;
+    width:92%;
+  }
+   /* Info section three */
+   .disponible {
+    display: flex;
+    line-height: normal;
+    width: 95%;
+    font-size: 15px;
+  }
+  .round-btn {
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    padding: 3px 12.5px;
+    font-size: 1rem;
+    margin-right: 10px;
+    border-radius: 50%;
+    color: #0065fc;
+    border: 1px solid #ccc;
+    margin-top:-2px;
+  }
