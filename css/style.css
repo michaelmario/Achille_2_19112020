@@ -257,13 +257,13 @@ transition: all 0.4s;
   
 }
 
-article {
+/*article {
   width: 100%;
   height: auto;
    background-color:var(--lightBlue);
   justify-content: center;
   padding-bottom:20px; 
-}
+}*/
 .imageTitle{
     margin-left:26px;
     padding-top: 20px;

@@ -15,24 +15,26 @@
 
 </head>
 <body>
+    <header>
     <!--- Nav -->
     <nav>
         <ul>
             <li><img src="images/logo/Reservia.svg" alt="Logo Reservia"></li>
-            <li><a href="#" class="active">Hébergements</a></li>
-            <li><a href="#">Activités</a></li>
+            <li><a href="#hebergement" class="active">Hébergements</a></li>
+            <li><a href="#activites">Activités</a></li>
             <li><a href="#" class="active">S'incrire</a></li>
         </ul>
     </nav>
+</header>
     <span class="separation"></span>
     <!--decriptionTitle-->
     <section class="descriptionTitle">
-        <h1 role="heading" aria-level="1"> Trouver votre hébergement pour des vacanes de reve </h1>
+        <h1  aria-level="1"> Trouver votre hébergement pour des vacanes de reve </h1>
         <p> En plein centre ville ou en pleine nature</p>
     </section>
     <!--Search Input-->
     <section>
-        <div role="heading" aria-hidden="true" aria-level="2" aria-label="Recherche des informations"></div>
+        <div aria-hidden="true" aria-level="2" aria-label="Recherche des informations"></div>
         <form class="searchInput">
             <i class="fas fa-map-marker-alt"></i>
             <input type="search" class="search" placeholder='Marseille, France' aria-label="Champ_Recherche">
@@ -45,12 +47,11 @@
     </section>
     <!--Filter Container-->
     <section class="filterContainer">
-        <h1 aria-label="filter">Filtres</h1>
+        <h1 aria-level="1">Filtres</h1>
         <div class="firtsBtn">
             <div class="liBtn" role="button">
                 <i class="fas fa-money-bill-wave"></i>
                 <span>Economique</span>
-
             </div>
             <div class="liBtn" role="button">
                 <i class="fas fa-child"></i>
@@ -65,10 +66,10 @@
             <i class="fas fa-dog"></i>
             <span>Animaux autorisés</span>
         </div>
-
     </section>
     <!--Section information-->
-    <section class="information" role="article">
+    <section class="information">
+        <div aria-hidden="true" aria-level="1" aria-label="informations"></div>
         <div class="round-btn" role="button" aria-label="information">
             <i class="fas fa-info"></i>
         </div>
@@ -76,7 +77,7 @@
         </p>
     </section>
     <!--Section hebergement -->
-    <section>
+    <section id="hebergement">
         <div class="hebergementsContainer">
             <article>
                 <div class="imageTitle">
@@ -86,7 +87,7 @@
                 <div class="parent_box">
                     <div class="box">
                         <figure>
-                            <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+                            <img src="images/compress/3Compress.jpg"
                                 alt="marcus-loke">
                             <figcaption>
                                 <h3>Auberge la Cannebiere</h3>
@@ -103,8 +104,7 @@
                     </div>
                     <div class="box">
                         <figure>
-                            <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
-                                alt="photo_fred-kleber">
+                            <img src="images/compress/5Compress.jpg" alt="photo_fred-kleber">
                             <figcaption>
                                 <h3>Hôtel du port</h3>
                                 <p>Nuit à partir de 52<strong>&#8364;</strong></p>
@@ -120,8 +120,7 @@
                     </div>
                     <div class="box">
                         <figure>
-                            <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
-                                alt="marcus-loke">
+                            <img src="images/compress/1Compress.jpg" alt="marcus-loke">
                             <figcaption>
                                 <h3>
                                     Hôtel Les mouettes</h3>
@@ -140,7 +139,7 @@
                 <div class="parent_box">
                     <div class="box">
                         <figure>
-                            <img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
+                            <img src="images/compress/10Compress.jpg"
                                 alt="photo_annie-spratt">
                             <figcaption>
                                 <h3>
@@ -158,7 +157,7 @@
                     </div>
                     <div class="box">
                         <figure>
-                            <img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
+                            <img src="images/compress/2Compress.jpg"
                                 alt="photo_nicate-lee">
                             <figcaption>
                                 <h3>Auberge Le Panier</h3>
@@ -175,7 +174,7 @@
                     </div>
                     <div class="box">
                         <figure>
-                            <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
+                            <img src="images/compress/7Compress.jpg"
                                 alt="photo_fred-kleber">
                             <figcaption>
                                 <h3>
@@ -199,7 +198,7 @@
 
                 <div class="popularBox">
                     <figure>
-                        <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+                        <img src="images/compress/8Compress.jpg"
                             alt="photo_emile-guillemot">
                         <figcaption>
                             <h3>
@@ -217,7 +216,7 @@
                 </div>
                 <div class="popularBox">
                     <figure>
-                        <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
+                        <img src="images/compress/9Compress.jpg"
                             alt="photo_reisetopia-B8WIgxA">
                         <figcaption>
                             <h3>Au coeur de l'eau chambres d'
@@ -235,7 +234,7 @@
                 </div>
                 <div class="popularBox">
                     <figure>
-                        <img src="images/hebergements/4_small/bestcrop.png" alt="photo_emile-guillemot">
+                        <img src="images/compress/6Compress.jpg" alt="photo_emile-guillemot">
                         <figcaption>
                             <h3>Hôtel Le soleil du matin</h3>
                             <p>Nuit à partir de 128<strong>&#8364;</strong></p>
@@ -253,7 +252,7 @@
         </div>
     </section>
     <!---Section Activites-->
-    <section>
+    <section id="activites">
         <div class="imageTitle">
             <h3>Activités à Marseille</h3>
         </div>
