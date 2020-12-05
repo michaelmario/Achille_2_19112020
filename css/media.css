@@ -1,12 +1,188 @@
-@media (max-width: 768px) {
-  /*body {
-    background-color: rgba(0, 0, 255, 0.418);
-  }*/
-  nav {
+header {
+  width: 50%;
+  border-bottom: 1px solid #ccc;
+}
+nav {
+  border-bottom: 1px solid var(--blue);
+}
+nav ul {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+nav li:nth-of-type(1) {
+  margin-left: 20px;
+}
+nav li:nth-of-type(2) {
+  padding-top: 70px;
+  margin-left: -106px;
+}
+nav li:nth-of-type(3) {
+  padding-top: 72px;
+  margin-left: 35px;
+}
+nav li:nth-of-type(4) {
+  margin-left: -90px;
+  padding-top: 31px;
+  font-weight: bolder;
+}
+
+.liBtn {
+  left: -8px;
+  top: -17px;
+  font-size: 12px;
+  padding: 16px 9px;
+  margin-right: 8px;
+  margin-bottom: 10px;
+}
+.liBtn i {
+  left: -8px;
+  top: -17px;
+}
+.descriptionTitle {
+  flex-direction: column;
+}
+.lastchild {
+  width: 250px;
+}
+.hebergementsContainer {
+  flex-direction: column-reverse;
+}
+figure {
+  height: auto;
+  padding: 2px;
+  margin-bottom: 10px;
+}
+.box figure {
+  flex-direction: column;
+}
+figure img {
+  width: 100%;
+  height: 120px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+.popularBox {
+  margin: 20px 5px;
+}
+.popularBox img {
+  width: 30%;
+  height: 126px;
+}
+.startBoxPopular {
+  margin-top: 52px;
+}
+#startSecond{
+    margin-top:30px !important;
+}
+.popularBox.startBoxPopular:nth-of-type(1){
+    padding-top:30px;
+}
+.normalsize {
+  padding-top: 0px;
+}
+.activitesContainer {
+  flex-direction: column;
+}
+
+.rowPhoto {
+  flex-direction: column;
+  margin-right: 17px;
+  
+}
+.Boxbig {
+  border-radius: 15px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+.boxSmall {
+  width: 100%;
+  height: auto;
+  margin: 10px auto;
+}
+
+.boxSmall img {
+  width: 100%;
+}
+footer {
+  flex-direction: column;
+}
+@media (min-width:768px) {
+    body {
+        background-color: rgba(211, 209, 100, 0.301);
+      }
+      .search {
+        width: 38%;
+    }
+     .parent_box{
+         display:flex;
+         flex-direction:row;
+     }
+     .box{
+        margin:0 10px;
+     }
+      .popularBox figure {
+          width:82%;
+          margin:0 auto;
+      }
+      .activitesContainer {
+        flex-direction: row;
+        align-items: center;
+        margin: 0px 2px;
+    }
+    figure {
+      padding: 0;
+      margin-bottom:0px;
+    }
+    
+    .Boxbig img {
+        height:302px;
+    }
+    .smallBigMargin {
+        margin-top: 37px;
+    }
+    #ileDuFriout{
+        height:150px;
+    }
+    #ileDuFriout img {
+        height: 100px;
+      }
+      .FortdePomegues{
+          margin-top:40px;
+      }
+      .Boxbig{
+        margin-right:10px;
+       }
+      .rowPhoto {
+          margin-right:10px;
+      }
+      footer {
+        flex-direction: row;
+    }
+}
+@media  (min-width: 800px) {
+    .popularContainer h2 {
+        margin-left: 13px;
+       
+    }
+    .startBoxPopular {
+        margin-top: 18px;
+    }
+    .popularBox figure {
+        width: 100%;
+        
+    }
+}
+@media (min-width: 1024px){  
+  header {
     width: 100%;
+    border: none;
+  }
+  nav {
+    border: none;
   }
   nav ul {
-    display: flex;
     justify-content: flex-start;
     flex-direction: row;
     margin-right: 50px;
@@ -17,260 +193,18 @@
   nav li:nth-of-type(1) {
     margin-left: 20px;
     flex-grow: 1;
-  }
-
-  nav li:nth-of-type(4) {
-    font-weight: bolder;
-  }
-  .boxbig {
-    width: 88%;
-    height: auto;
-    margin: 18px;
-}
-  .box {
-    width: 90%;
-    height: auto;
-    cursor: pointer;
-  }
-}
-
-@media (max-width: 600px) {
-  
-}
-@media (min-width: 800px) {
- 
-  nav {
-    width: 100%;
-  }
-  nav ul {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
-    margin-right: 50px;
-  }
-  nav li {
-    padding-top: 14px;
-  }
-  nav li:nth-of-type(1) {
-    margin-left: 20px;
-    flex-grow: 1;
-  }
-
-  nav li:nth-of-type(4) {
-    font-weight: bolder;
-  }
-  .descriptionTitle {
-    flex-direction: column;
-  }
-  .search {
-    width: 40%;
-  }
-  .filterContainer {
-    flex-direction: row;
-  }
-  .liBtn {
-    margin-right: 5px;
-    margin-left: 10px;
-    padding: 15px;
-  }
-  .liBtn i {
-    left: -17px;
-    top: -15px;
-    padding: 15px 17px;
-  }
-
-  .hebergementsContainer {
-    flex-direction: row;
-  }
-  
-  figure {
-    height: auto;
-    padding: 2px;
-    margin-bottom: 10px;
-  }
-  .box figure {
-    flex-direction: column;
-  }
-  figure img {
-    width: 70%;
-    height: 120px;
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
-  }  
-  .popularBox {
-    width:50%;
-    margin: 20px 5px;
-   
-  }
-  
-  .popularBox img {
-    width: 30%;
-    height: 126px;
-  }
-  .popularContainer h2 {
-    margin-left: 5px;
-    font-size: 1rem;
-  }
-  .startBoxPopular {
-    margin-top: 30px;
-  }
-  
-  .activitesContainer {
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .rowPhoto {
-    flex-direction: column;
-    justify-content: baseline;
-  }
-  .Boxbig {
-    width:50%;
-    border-radius: 15px;
-    margin: 10px auto;
-    background-color: #fff;
-    border: 1px solid #ccc;
-  }
-
-  .boxSmall {
-    width: 50%;
-    height: auto;
-    margin: 18px;
-  }
-
-  .boxSmall img {
-    width: 100%;
-  }
-}
-
-@media (max-width: 800px) {
-  nav {
-    border-bottom: 1px solid var(--blue);
-  }
-  nav ul {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
-  }
-  nav li:nth-of-type(1) {
-    margin-left: 20px;
   }
   nav li:nth-of-type(2) {
-    padding-top: 70px;
-    margin-left: -106px;
+    padding-top: 32px;
   }
   nav li:nth-of-type(3) {
-    padding-top: 72px;
-    margin-left: 20px;
+    padding-top: 32px;
   }
   nav li:nth-of-type(4) {
-    margin-left: -90px;
-    padding-top: 18px;
     font-weight: bolder;
+    margin-left: 0px;
   }
-
-  .liBtn {
-    left: -8px;
-    top: -17px;
-    font-size: 16px;
-    padding: 16px 9px;
-    margin-right: 8px;
-    margin-bottom: 10px;
-  }
-  .liBtn i {
-    left: -8px;
-    top: -17px;
-  }
-  .descriptionTitle {
-    flex-direction: column;
-  }
-  .lastchild {
-    width: 250px;
-  }
-  .hebergementsContainer {
-    flex-direction: column-reverse;
-  }
-  figure {
-    height: auto;
-    padding: 2px;
-    margin-bottom: 10px;
-  }
-  .box figure {
-    flex-direction: column;
-  }
-  figure img {
-    width: 100%;
-    height: 120px;
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
-  }
-  .popularBox {
-    margin: 20px 5px;
-    padding: 3px;
-  }
-  .popularBox img {
-    width: 30%;
-    height: 126px;
-  }
-  .startBoxPopular {
-    margin-top: 30px;
-  }
-  .normalsize {
-    padding-top: 0px;
-  }
-  .activitesContainer {
-    flex-direction: column;
-  }
-
-  .rowPhoto {
-    flex-direction: column;
-  }
-  .Boxbig {
-    border-radius: 15px;
-    margin: 10px 20px;
-    background-color: #fff;
-    border: 1px solid #ccc;
-  }
-
-  .boxSmall {
-    width: 88%;
-    height: auto;
-    margin: 18px;
-  }
-
-  .boxSmall img {
-    width: 100%;
-  }
-  footer {
-    flex-direction: column;
-  }
-}
-
-@media (min-width: 1024px) {
-  nav {
-    width: 100%;
-  }
-  nav ul {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
-    margin-right: 50px;
-  }
-  nav li {
-    padding-top: 14px;
-  }
-  nav li:nth-of-type(1) {
-    margin-left: 20px;
-    flex-grow: 1;
-  }
-
-  nav li:nth-of-type(4) {
-    font-weight: bolder;
-  }
-  .separation {
-    display: none;
-  }
-  /**/
+  /*Search Section*/
   .search {
     width: 17%;
   }
@@ -287,9 +221,9 @@
   .descriptionTitle {
     flex-direction: column;
   }
-  /**/
+  /* Filter Section*/
   .filterContainer {
-    margin: 20px 20px;
+    margin: 40px 20px;
     flex-direction: row;
   }
   .liBtn {
@@ -305,23 +239,10 @@
   .lastchild {
     width: auto;
   }
-  /**/
+
+  /* Hebergements*/
   .hebergementsContainer {
     flex-direction: row;
-  }
-  .box {
-    margin: 10px 20px;
-    padding-bottom: 5px;
-  }
-  figure {
-    flex-direction: column;
-    height: auto;
-  }
-  figure img {
-    width: 100%;
-    height: 120px;
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
   }
   article {
     margin-right: 10px;
@@ -333,69 +254,55 @@
   }
   .parent_box {
     display: flex;
+    justify-content: center;
   }
-  /**/
-  .popularBox {
-    height: auto;
-    width: 96%;
-    margin: 20px 5px;
-   
+  .box {
+    margin: 10px 20px;
+    padding-bottom: 5px;
   }
-
-  .popularBox img {
-    width: 45%;
-    height: 130px;
-  }
-  .popularContainer h2 {
-    margin-left: 5px;
-    font-size: 1.2rem;
-  }
-  .startBoxPopular {
-    font-size: 12px;
-    padding-top: 26px;
-    margin-top: 30px;
-  }
-  .normalsize {
-    margin-top: 10px;
-  }
-  /***/
-  .activitesContainer {
+/***/
+.activitesContainer {
     flex-direction: row;
     margin: 20px 20px;
     justify-content: center;
   }
-  .rowPhoto {
-    flex-direction: column;
-  }
-  .Boxbig {
-    margin-right: 20px;
-    padding-bottom: 20px;
-  }
+  .Boxbig{
+  margin-top: 33px;
+   }
   .Boxbig img {
-    height: 362px;
+    height: 375px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
   }
+  .rowPhoto {
+    flex-direction: column;
+    margin-top:-10px;
+  }
   .boxSmall {
     width: 90%;
-    height: auto;
+    height: auto;   
   }
 
   .boxSmall img {
     width: 100%;
-    height: 150px;
+    height: 144px;
   }
-  #FortdePomegues img {
-    height: 200px;
+  #FortdePomegues{
+    height: 186px;  
+  }
+  #FortdePomegues img{
+      height:150px;
   }
   #ileDuFriout {
     position: relative;
     z-index: -1;
-    margin-top: 40px;
-    margin-right: 20px;
-    padding-bottom: 15px;
+    margin-right: 13px;   
     box-shadow: 1px 2px rgba(204, 204, 204, 0.561);
+    top:58px;
   }
+  #ileDuFriout {
+    margin-top:27px;
+   }
   #ileDuFriout img {
     height: 90px;
   }
@@ -403,10 +310,10 @@
     z-index: 4;
     top: 100 !important;
   }
-  .smallBigMargin {
-    margin-top: 40px;
+  #lastSmall{
+    position: relative;
+      top:32px;
   }
-  /**/
   footer {
     flex-direction: row;
   }
@@ -418,3 +325,6 @@
     margin-left: 120px;
   }
 }
+
+
+
