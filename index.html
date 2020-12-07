@@ -12,29 +12,29 @@
 
     <link href="./css/style.css" rel="stylesheet">
     <link href="./css/media.css" rel="stylesheet">
-
 </head>
+
 <body>
     <header>
-    <!--- Nav -->
-    <nav>
-        <ul>
-            <li><img src="images/logo/Reservia.svg" alt="Logo Reservia"></li>
-            <li><a href="#hebergement" class="active">Hébergements</a></li>
-            <li><a href="#activites">Activités</a></li>
-            <li><a href="#" class="active">S'incrire</a></li>
-        </ul>
-    </nav>
-</header>
-    <span class="separation"></span>
-    <!--decriptionTitle-->
+        <!--- Nav -->
+        <nav>
+            <ul>
+                <li><img src="images/logo/Reservia.svg" alt="Logo Reservia"></li>
+                <li><a href="#hebergement" class="active">Hébergements</a></li>
+                <li><a href="#activites">Activités</a></li>
+                <li><a href="#" class="active">S'incrire</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- <span class="separation"></span>
+   decriptionTitle-->
     <section class="descriptionTitle">
         <h1> Trouver votre hébergement pour des vacanes de reve </h1>
         <p> En plein centre ville ou en pleine nature</p>
     </section>
     <!--Search Input-->
     <section>
-         <form class="searchInput">
+        <form class="searchInput">
             <i class="fas fa-map-marker-alt"></i>
             <input type="search" class="search" placeholder='Marseille, France' aria-label="Champ_Recherche">
 
@@ -76,7 +76,7 @@
     </section>
     <!--Section hebergement -->
     <section id="hebergement">
-         <div class="hebergementsContainer">
+        <div class="hebergementsContainer">
             <article>
                 <div class="imageTitle">
                     <h2>Hébergement à Marseille</h2>
@@ -84,8 +84,7 @@
                 <div class="parent_box">
                     <div class="box">
                         <figure>
-                            <img src="images/compress/3Compress.jpg"
-                                alt="marcus-loke">
+                            <img src="images/compress/3Compress.jpg" alt="marcus-loke">
                             <figcaption>
                                 <h3>Auberge la Cannebiere</h3>
                                 <p>Nuit à partir de 25<strong>&#8364;</strong></p>
@@ -136,8 +135,7 @@
                 <div class="parent_box">
                     <div class="box">
                         <figure>
-                            <img src="images/compress/10Compress.jpg"
-                                alt="photo_annie-spratt">
+                            <img src="images/compress/10Compress.jpg" alt="photo_annie-spratt">
                             <figcaption>
                                 <h3>
                                     Hôtel de la mer</h3>
@@ -154,8 +152,7 @@
                     </div>
                     <div class="box">
                         <figure>
-                            <img src="images/compress/2Compress.jpg"
-                                alt="photo_nicate-lee">
+                            <img src="images/compress/2Compress.jpg" alt="photo_nicate-lee">
                             <figcaption>
                                 <h3>Auberge Le Panier</h3>
                                 <p>Nuit à partir de 23<strong>&#8364;</strong></p>
@@ -171,8 +168,7 @@
                     </div>
                     <div class="box">
                         <figure>
-                            <img src="images/compress/7Compress.jpg"
-                                alt="photo_fred-kleber">
+                            <img src="images/compress/7Compress.jpg" alt="photo_fred-kleber">
                             <figcaption>
                                 <h3>
                                     Hôtel chez Amina</h3>
@@ -191,12 +187,13 @@
                 <a href="#" class="textLeft">Afficher plus</a>
             </article>
             <aside class="popularContainer">
-                <h2>Les plus populaires <span class="chart"><i class="fas fa-chart-line"></i></span></h2>
-
+                <div class="popularTitle">
+                    <h2>Les plus populaires</h2>
+                    <span class="chart"><i class="fas fa-chart-line"></i></span>
+                </div>
                 <div class="popularBox">
                     <figure>
-                        <img src="images/compress/8Compress.jpg"
-                            alt="photo_emile-guillemot">
+                        <img src="images/compress/8Compress.jpg" alt="photo_emile-guillemot">
                         <figcaption>
                             <h3>
                                 Hôtel Le soleil du matin</h3>
@@ -213,13 +210,12 @@
                 </div>
                 <div class="popularBox">
                     <figure>
-                        <img src="images/compress/9Compress.jpg"
-                            alt="photo_reisetopia-B8WIgxA">
+                        <img src="images/compress/9Compress.jpg" alt="photo_reisetopia-B8WIgxA">
                         <figcaption>
                             <h3>Au coeur de l'eau chambres d'
                                 Hôtel</h3>
                             <p>Nuit à partir de 17<strong>&#8364;</strong></p>
-                            <ul class="startBoxPopular  normalsize">
+                            <ul class="startBoxPopular" id="startSecond">
                                 <li><i class="fas fa-star"></i></li>
                                 <li><i class="fas fa-star"></i></li>
                                 <li><i class="fas fa-star"></i></li>
@@ -272,7 +268,7 @@
                     </figure>
 
                 </div>
-                <div class="boxSmall smallBigMargin" id="ileDuFriout">
+                <div class="boxSmall" id="ileDuFriout">
                     <figure>
                         <img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="marcus-loke">
                         <figcaption>
@@ -299,7 +295,7 @@
                         </figcaption>
                     </figure>
                 </div>
-                <div class="boxSmall smallBigMargin">
+                <div class="boxSmall" id="lastSmall">
                     <figure>
                         <img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="marcus-loke">
                         <figcaption>

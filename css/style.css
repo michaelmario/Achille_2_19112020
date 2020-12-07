@@ -38,7 +38,7 @@
 nav {
   margin-top: 0px;
   padding-top:20px;
-  width: 50%;
+  width: 100%;
   padding-bottom:33px;
 }
 nav a {
@@ -63,7 +63,7 @@ nav li a:hover {
  border:1px solid #ccc;
 }
 section {  
-  margin:20px 0px;
+  margin:20px 10px;
  } 
  .descriptionTitle{
   display:flex; 
@@ -229,7 +229,7 @@ transition: all 0.4s;
 .information{
  display:flex; 
   margin-left:20px;
-  width:92%;
+  width:91%;
 }
  /* Info section three */
  .disponible {
@@ -249,7 +249,9 @@ transition: all 0.4s;
   color: #0065fc;
   border: 1px solid #ccc;
   margin-top:-2px;
-}
+} 
+
+/* Hebergements*/
 .hebergementsContainer {
   display: flex; 
   justify-content: center; 
@@ -277,6 +279,7 @@ aside {
   height: auto;
   background-color: #fff;
   border-radius: 15px;
+  margin-bottom: 20px;
   box-shadow: 2px 3px rgba(204, 204, 204, 0.561);
   cursor: pointer;  
 }
@@ -310,21 +313,22 @@ figcaption h3 {
   color:var(--blue)
 }
 .popularContainer {
-  margin-left: 0px;
+  margin: 0 auto;
   height: auto;
-  padding: 20px 0px;
+  }
+  .popularTitle i{
+ margin-left:20px;
+ font-size:25px; 
+  }
+
+.popularTitle{
+ display:flex;
+ flex-direction: row;
+ justify-content:flex-start;
 }
 
-.popularContainer h2 {
-  margin-left: 13px;
-  font-size: 1.5rem;
-}
-.chart{
- float:right;
- margin-right:23px;
-}
 .popularBox{
-  box-shadow: 1px 2px rgba(204, 204, 204, 0.561);
+  box-shadow: 1px  rgba(204, 204, 204, 0.561);
   border-radius: 15px;
 }
 .popularBox:hover{
@@ -367,7 +371,7 @@ figcaption h3 {
 /*===activitesContainer==*/
 .activitesContainer{
  display:flex;
- 
+ margin: 20px 20px;
 }
 .rowPhoto{
   display:flex; 
@@ -378,6 +382,7 @@ figcaption h3 {
   border: 1px solid #ccc;
   height:auto;
   box-shadow: 1px 2px rgba(204, 204, 204, 0.561);
+  margin: 10px auto;
  }
  .Boxbig:hover{
   box-shadow: 0 1px 1px rgba(0,0,0,0.1), 
@@ -390,9 +395,9 @@ figcaption h3 {
    display:flex;
    flex-direction:column;
  }
- .Boxbig h3 {        
+ .Boxbig h4 {        
   margin-left: 20px;
- 
+  padding-top:10px;
 }
  .Boxbig img{
   border-top-left-radius: 15px;
@@ -400,8 +405,6 @@ figcaption h3 {
 }
 .boxSmall{
   border-radius: 15px;
-  background-color:#fff;
-  border:1px solid #ccc;
   box-shadow: 1px 2px rgba(204, 204, 204, 0.561);
  
 }
@@ -418,18 +421,25 @@ figcaption h3 {
 }
 .boxSmall h4 {        
   margin-left: 20px;
-  padding-top:5px;
+  padding-top:10px;
 }
 .boxSmall img{
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
+#ileDuFriout:hover{
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1), 
+  0 2px 2px rgba(0,0,0,0.1), 
+  0 4px 4px rgba(0,0,0,0.1), 
+  0 8px 8px rgba(0,0,0,0.1),
+  0 16px 16px rgba(0,0,0,0.1);
+ }
 
 
 /*===Footer ===*/
 footer {
   display: flex;
-  margin:20px 20px;
+  margin:40px 20px;
 }
 .card {  
   padding: 1rem;
