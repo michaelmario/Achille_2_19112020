@@ -58,8 +58,8 @@ nav li a:hover {
 
 .separation{
  display:block;  
- width:85%;
- margin-left:20px;
+ width:80%;
+
  border:1px solid #ccc;
 }
 section {  
@@ -100,7 +100,7 @@ section {
 }
 .search 
 {   
-   width:65%;
+   width:54%;
     height: 51px;
     border: none;
     border-top: 1px solid #f2f2f2;
