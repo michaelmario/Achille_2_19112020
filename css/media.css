@@ -102,12 +102,7 @@ figure img {
 .boxSmall img {
   width: 100%;
 }
-.boxSmall #activity_6{
-  background-image: url("../images/compress/activity/6.jpg"); 
-  background-size:cover;
-  width:100%;
-  height:120px;   
-}
+
 footer {
   flex-direction: column;
 }
@@ -179,10 +174,10 @@ footer {
     .smallBigMargin {
         margin-top: 37px;
     }
-    #ileDuFriout{
+    #DuFriout{
         height:150px;
     }
-    #ileDuFriout img {
+    #DuFriout img {
         height: 100px;
       }
       
@@ -245,6 +240,7 @@ footer {
   nav li:nth-of-type(4) {
     font-weight: bolder;
     margin-left: 0px;
+    padding-top: 31px;
   }
   .separation{
     display:none;
@@ -334,27 +330,39 @@ footer {
     width: 90%;
     height: auto;   
   }
-
+  .boxSmall:hover {
+    box-shadow: 0 3px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1),
+      0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1),
+      0 16px 16px rgba(0, 0, 0, 0.1);
+  }
   .boxSmall img {
     width: 100%;
     height: 144px;
   }
   #FortdePomegues{
-    height: 186px;  
+    height: 186px; 
+    box-shadow: 2px 5px rgba(204, 204, 204, 0.561); 
+  }
+  #FortdePomegues:hover{
+    box-shadow: 0 3px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1),
+    0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1),
+    0 16px 16px rgba(0, 0, 0, 0.1);
   }
   #FortdePomegues img{
       height:150px;
   }
-  #ileDuFriout {
-    position: relative;
-    z-index: -1;
+   #DuFriout {
+  position: relative;  
     margin-right: 13px;   
-    top:68px;
+    top:68px; 
+    margin-top:27px
   }
-  #ileDuFriout {
-    margin-top:27px;
-   }
-  #ileDuFriout img {
+  #DuFriout:hover {
+    box-shadow: 0 3px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1),
+    0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1),
+    0 16px 16px rgba(0, 0, 0, 0.1);
+  }   
+  #DuFriout img {
     height: 90px;
   }
   #ileDuFriout figcaption {
