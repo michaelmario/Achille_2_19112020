@@ -354,6 +354,9 @@ footer {
   .hebergementsContainer {
     flex-direction: row;
   }
+  .hebergementTitle{
+  padding-left:20px;
+  }
   article {
     width: 68%;
     border-radius: 25px;
