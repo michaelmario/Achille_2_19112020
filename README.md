@@ -12,3 +12,20 @@
 
 ** implémenter une interface responsive
 
+responsive  
+       mobile
+                1. 320*711 px
+                2. 375*1036 px
+                3. 425*1036 px 
+     Tablet
+                1.   768*1036 px
+
+    Laptop
+    1. 1024*1036 PX
+
+     ordi de bureau 
+            1. 1900*1036 PX
+
+
+
+
