@@ -1250,8 +1250,46 @@ nav img {
   ::placeholder {
     font-size: 2rem;
   }
+  .liBtn {
+     width: 285px !important; 
+}
+.firtsBtn.liBtn {
+  width: 299px !important; 
+}
+.liBtn h3 {
+  font-size: 24px;
+ line-height: 2;
+  font-weight: bolder;
+}
+.information p {
+  font-size: 26px;
+}
+
    .imageTitle {    
     margin-bottom: 63px;
+    font-size:1.8em;
+}
+.box figcaption h3 {
+  font-size: 1.2rem;
+}
+.popularBox figcaption h3 {
+  font-size: 1.2rem;
+}
+.popularBox figcaption {
+  margin-right: 70px;
+}
+.box figcaption > p {
+  font-size: 20px;
+}
+.popularBox figcaption > p {
+  font-size: 20px;
+}
+.startBox {  
+  font-size: 20px; 
+}
+.startBoxPopular {
+   font-size: 19px;
+   margin-top: -32px;
 }
   #hebergementImg {
     height: 195px;
@@ -1271,6 +1309,10 @@ nav img {
   #hebergementImg6 {
     height: 195px;
   }
+  .textLeft a {
+   font-size:25px;
+   margin-bottom: 10px;
+}
   #activityImg1 {
     height: 541px;
   }
@@ -1286,8 +1328,7 @@ nav img {
   #activityImg5 {
     height: 200px;
   }
-  #activityImg6 {
-   
+  #activityImg6 {   
     height: 200px;
   }
   #DuFriout {
@@ -1330,6 +1371,12 @@ nav img {
   .popularBox img {
     height: 180px;
   }
+  .Boxbig h4 {
+     font-size: 20px;
+}
+.boxSmall h4 {
+  font-size: 20px;
+}
   .card:nth-of-type(2) {
     margin-left: 350px;
   }
