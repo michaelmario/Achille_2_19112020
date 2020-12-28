@@ -895,6 +895,7 @@
     border-top-left-radius: 15px;
   }
   #hebergementImg {
+    height: 143px;
     background-image: url("../images/hebergement/boxImg1.jpg");
     background-size: cover;
   }
@@ -955,7 +956,7 @@
     box-shadow: 2px 3px rgba(204, 204, 204, 0.561);
     cursor: pointer;
     width: 100%;
-    margin: 15px 10px;
+    margin: 15px 4px;
     padding: 5px;
   }
   .box:hover {
@@ -992,6 +993,7 @@
     flex-direction: row;
     justify-content: flex-start;
     font-size: 1.4rem;
+    margin-top: 23px;
   }
 
   .popularBox {
@@ -1118,7 +1120,7 @@
     margin-right: 10px;
   }
   #secondSeparation {
-    margin-top: 10px;
+    margin-top: 23px;
     margin-right: 10px;
     display: flex;
     flex-direction: row;
