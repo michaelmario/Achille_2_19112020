@@ -62,12 +62,12 @@
  
   nav li:nth-of-type(3) {
       margin-top:-28px;
-      margin-left:231px;
+      margin-left:243px;
    }
   nav li:nth-of-type(2) {
     padding-top:30px;
     padding-left:81px;
-    margin-left: 121px;
+    margin-left: 134px;
     padding-bottom:10px;
     border-bottom: 3px solid #ccc;
 
@@ -75,7 +75,7 @@
   nav ul li:nth-of-type(1) {
      margin-left: 39px;
      margin-top:-28px;
-  }  
+   }  
  nav a {
    color: #000;
   }
@@ -83,7 +83,7 @@
   .active {
     color: var(--blue);
     padding-bottom:10px;
-    padding-left:46px;
+    padding-left:35px;
     border-bottom:2px solid var(--blue);
     margin-left:-40px;
    }
@@ -223,7 +223,7 @@
     border-bottom-left-radius: 15px;
   }
   .search {
-    width: 60%;
+    width: 63%;
     height: 51px;
     border: none;
     border-top: 1px solid #f2f2f2;
