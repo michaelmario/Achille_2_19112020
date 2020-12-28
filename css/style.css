@@ -163,13 +163,15 @@
   }
   .rowPhoto {
     flex-direction: column; 
-    margin: 0 13px; 
+   
   }
  
   .boxSmall {
     width: 100%;
     height: auto;
     margin: 10px auto;
+    border: 1px solid #ccc;
+    border-radius: 15px;
   }
   
   .boxSmall img {
@@ -360,7 +362,7 @@
   } 
   .hebergementImg{
     width: 100%;
-    
+    height: 100px;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
     
@@ -368,32 +370,33 @@
     flex-direction: column-reverse;
   }
   #hebergementImg {
+    height: 118px;
     background-image: url("../images/4_small/8sm.jpg");
     background-size: cover;
-    height: 100px;
+    
   }
   #hebergementImg2 {
-    height: 120px;
-    background-image: url("../images/4_small/2sm.jpg");
+    height: 118px;
+    background-image: url("../images/4_small/2d.jpg");
     background-size: cover;
   }
   #hebergementImg3 {
-    height: 110px;
+    height: 119px;
     background-image: url("../images/4_small/sm3a.jpg");
     background-size: cover;
   }
-  #hebergementImg4 {
-    height: 110px;
+  #hebergementImg4 { 
+    height:123px; 
     background-image: url("../images/4_small/sm4b.jpg");
     background-size: cover;
   }
-  #hebergementImg5 {
-    height: 105px;
+  #hebergementImg5 { 
+    height: 123px;
     background-image: url("../images/4_small/sm5c1.jpg");
     background-size: cover;
   }
   #hebergementImg6 {
-    height: 110px;
+    height: 123px;
     background-image: url("../images/4_small/sm6b.jpg");
     background-size: cover;
   }
@@ -414,12 +417,10 @@
       margin-top:-24px;
   }
   .imageTitle {
-    margin-left: 13px;
     padding-bottom: 15px;
+    margin-left:5px;
   }
-  .imageTitle h2 {
-    font-size: 1.3rem;
-  }
+ 
   aside {
     margin-top:10px;
     width: 100%;
@@ -427,7 +428,7 @@
     background-color: var(--bgColor);  
   }
   .box {
-    width: 100%;
+    width: 98%;
     height: auto;
     background-color: #fff;
     border-radius: 15px;
@@ -515,11 +516,12 @@
     color: #ccc;
   }
   .textLeft {
-    margin-left: 10px;
+    margin-left: 9px;
     background: #fff;
     margin-top: -25px;
     height: 50px;
     line-height: 3;
+    padding:6px;
 }
     
   
@@ -541,10 +543,11 @@
   .Boxbig {
     background-color: #fff;
     border-radius: 15px;
-    border: 1px solid #ccc;
     height: auto;
-    box-shadow: 1px 2px rgba(204, 204, 204, 0.561);
-    margin: 10px 12px;
+   margin-bottom: 7px;
+   border: 1px solid #ccc;
+    border-radius: 15px;
+   
   }
   .Boxbig:hover {
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1),
@@ -564,12 +567,7 @@
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
   }
-  .boxSmall {
-    border-radius: 15px;
-    box-shadow: 2px 2px rgba(204, 204, 204, 0.561);
-  }
-  
-  
+ 
   .boxSmall figure {
     display: flex;
     flex-direction: column;
@@ -582,14 +580,14 @@
     border-top-right-radius: 15px;
   }
   .activityImg {
-    height: 121px;
+    height: 126px;
     width: 100%;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
    
   }
   .activitySmImg {
-    height: 118px;
+    height: 126px;
     width: 100%;    
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -599,28 +597,26 @@
     background-image: url("../images/activites/6.jpg");
   }
   #activityImg2 {
-    height: 121px;
+    height:110px;
     background-size: cover;
-    background-image: url("../images/activites/boxSmmg3.jpg");
+    background-image: url("../images/activites/boxSmmg3a.jpg");
   }
   #activityImg3 {
-    height: 90px;
+    height:118px;
     background-size: cover;
-    background-image: url("../images/activites/sm3a2.jpg");
+    background-image: url("../images/activites/a2a.jpg");
   }
-  #DuFriout {
-    margin-top: 15px;
-  }
-  #activityImg4 {
+   #activityImg4 {
+    height: 109px;
     background-size: cover;
-    background-image: url("../images/activites/5.jpg");
+    background-image: url("../images/activites/5ab.jpg");
   }
   #activityImg5 {
     background-size: cover;
     background-image: url("../images/activites/boxSmImg3.jpg");
   }
   #activityImg6 {
-    background-size: cover;
+       background-size: cover;
     background-image: url("../images/activites/boxSmImg4.jpg");
   }
   /*===Footer ===*/
@@ -641,34 +637,21 @@
   .chart {
     margin-left: 42%;
 }
-  #hebergementImg {
-    height:145px;
-  }
-  #hebergementImg2 {
-    height: 171px;
-  } 
-  #hebergementImg3 {
-    height: 143px;
-  }
-  #hebergementImg4 {
-    height: 148px;
-  }  
-  #hebergementImg5 {
-    height: 136px;
-  } #hebergementImg6 {
-    height: 140px;
-  }  
+.hebergementImg{
+  width: 100%;
+  height: 150px;
+}
   #activityImg1 {
-    height:169px;
-  }
-  #activityImg2 {
     height:155px;
   }
+  #activityImg2 {
+    height:126px;
+  }
   #activityImg3 {
-    height:122px;
+    height:139px;
   }
   #activityImg4 {
-    height:150px;
+    height:140px;
   }
   #activityImg5 {
     height:136px;
@@ -677,6 +660,44 @@
     height:136px;
   }
 
+ }
+ @media (min-width: 425px){
+  #hebergementImg {
+    height:130px;
+  }
+  #hebergementImg2 {
+    height: 134px;
+  } 
+  #hebergementImg3 {
+    height: 139px;
+  }
+  #hebergementImg4 {
+    height: 141px;
+  }  
+  #hebergementImg5 {
+    height: 136px;
+  } #hebergementImg6 {
+    height: 140px;
+  } 
+  
+ #activityImg1 {
+  height:181px;
+}
+#activityImg2 {
+  height:153px;
+}
+#activityImg3 {
+  height:158px;
+}
+#activityImg4 {
+  height:149px;
+}
+#activityImg5 {
+  height:164px;
+}
+#activityImg6 {
+  height:169px;
+}
  }
  
 

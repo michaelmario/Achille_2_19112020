@@ -338,30 +338,32 @@
     border-top-left-radius: 15px;
   }
   #hebergementImg {
-    height: 140px;
+    height: 102px;
     background-image: url("../images/4_small/8sm.jpg");
     background-size: cover;
   }
   #hebergementImg2 {
-    height: 143px;
+    height: 103px;
     background-image: url("../images/4_small/2sm.jpg");
     background-size: cover;
   }
   #hebergementImg3 {
+    height:103px;
     background-image: url("../images/4_small/sm3a.jpg");
     background-size: cover;
   }
   #hebergementImg4 {
-    height: 136px;
+    height: 103px;
     background-image: url("../images/4_small/sm4b.jpg");
     background-size: cover;
   }
   #hebergementImg5 {
-    height: 136px;
+    height: 103px;
     background-image: url("../images/4_small/sm5c1.jpg");
     background-size: cover;
   }
   #hebergementImg6 {
+    height: 103px;
     background-image: url("../images/4_small/sm6b.jpg");
     background-size: cover;
   }
@@ -373,6 +375,7 @@
     border-radius: 15px;
     box-shadow: 2px 3px rgba(204, 204, 204, 0.561);
     cursor: pointer;
+    padding:5px;
   }
   .box:hover {
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1),
@@ -387,7 +390,6 @@
     flex-direction: column;
   }
   .box figcaption {
-    margin-left: 10px;
     line-height: 1.5;
     margin-top: 10px;
   }
@@ -514,12 +516,12 @@
     height: 313px;
   }
   #activityImg2 {
-    height: 158px;
+    height: 142px;
     background-size: cover;
     background-image: url("../images/activites/boxSmmg3.jpg");
   }
   #activityImg3 {
-    height: 90px;
+    height: 115px;
     background-size: cover;
     background-image: url("../images/activites/sm3a2.jpg");
   }
@@ -527,7 +529,7 @@
     margin-top: 15px;
   }
   #activityImg4 {
-    height: 340px;
+    height: 398px;
     background-size: cover;
     background-image: url("../images/activites/5.jpg");
   }
@@ -551,11 +553,13 @@
     display: flex;
     flex-direction: row;
     width: 100%;
+    margin-top:20px;
   }
-
+  
   .boxSmall {
     border-radius: 15px;
     box-shadow: 2px 2px rgba(204, 204, 204, 0.561);
+    margin:0px;
   }
 
   .boxSmall figure {
@@ -597,6 +601,36 @@
 }
 
 /**************Desktop**********/
+@media only screen and (width: 1024px){
+.search {
+  width: 31% !important;
+}
+.filterContainer h2 {
+  margin-right: 10px !important;
+}
+.firtsBtn .liBtn {
+  width: 132px;
+  margin-right: 9px;
+  line-height: 4;
+}
+.liBtn{
+  width: 150px !important;
+  margin-right:5px;
+  line-height: 4 !important ;
+}
+.liBtn h3 {
+  font-size:13px !important;
+}
+.lastchild {
+  width: 189px !important;
+}
+.popularTitle {
+  font-size:17px !important;
+}
+.hebergementTitle {
+  font-size: 17px!important;
+}
+}
 
 @media only screen and (min-width: 1024px) and (max-width: 1900px) {
   .container {
@@ -853,6 +887,7 @@
   .imageTitle h2 {
     font-size: 1.3rem;
   }
+ 
   .hebergementImg {
     width: 100%;
     height: 116px;
@@ -1012,6 +1047,7 @@
   }
   .textLeft {
     margin: 23px 10px;
+    background:var(--bgColor) ;
   }
   .textLeft a {
     font-weight: bold;
@@ -1040,7 +1076,7 @@
     border-top-right-radius: 15px;
   }
   #activityImg1 {
-    height: 397px;
+    height: 385px;
     background-size: cover;
     background-image: url("../images/activites/boxBigImg1.jpg");
   }
@@ -1050,7 +1086,7 @@
     background-image: url("../images/activites/boxSmmg3.jpg");
   }
   #activityImg3 {
-    height: 120px;
+    height: 131px;
     background-size: cover;
     background-image: url("../images/activites/a2a.jpg");
   }
@@ -1060,10 +1096,12 @@
     background-image: url("../images/activites/boxBigImg2.jpg");
   }
   #activityImg5 {
-    background-size: cover;
+     height: 145px;
+     background-size: cover;
     background-image: url("../images/activites/boxSmImg3.jpg");
   }
   #activityImg6 {
+    height: 146px;
     background-size: cover;
     background-image: url("../images/activites/boxSmImg4.jpg");
   }
@@ -1077,9 +1115,11 @@
     flex-direction: row;
     width: 50%;
     margin-top: -52px;
+    margin-right: 10px;
   }
   #secondSeparation {
     margin-top: 10px;
+    margin-right: 10px;
     display: flex;
     flex-direction: row;
     width: 50%;
@@ -1097,13 +1137,13 @@
     margin-top: 2px;
   }
   #secondbigphoto {
-    margin-top: 14px;
     height: 441px;
   }
   .rowPhoto {
     display: flex;
     flex-direction: column;
     width: 50%;
+    margin-left:20px;
   }
   .boxSmall {
     height: 174px;
@@ -1123,7 +1163,7 @@
   #FortdePomegues {
     width: 100%;
     height: 200px;
-  }
+    }
 
   #FortdePomegues:hover {
     box-shadow: 0 3px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1),
@@ -1131,7 +1171,7 @@
       0 16px 16px rgba(0, 0, 0, 0.1);
   }
   #DuFriout {
-    margin-top: 70px;
+    margin-top: 55px;
     width: 100%;
   }
 
@@ -1144,17 +1184,16 @@
   #NdeLaGard {
     width: 100%;
     height: 190px;
-    margin-top: 14px;
-    margin-bottom: 40px;
+    margin-bottom: 33px;
     border: 1px solid #ccc;
   }
 
   #lastSmall {
     width: 100%;
     height: 190px;
-    margin-top: 25px;
     margin-bottom: 80px;
     border: 1px solid #ccc;
+    margin-top: 21px;
   }
   .boxSmall h4 {
     padding: 10px;
@@ -1184,9 +1223,36 @@
   }
 }
 @media (min-width: 1900px) {
+  header {
+    margin-top:20px;
+    padding: 21px;
+}
+nav img {
+  margin-left: 20px;
+  height: 64px;
+}
+
+  nav ul li{
+    font-size:2.2rem;
+  }
+  .descriptionTitle h1 {
+    font-size: 2.2rem;
+}
+  .descriptionTitle p {
+    font-size: 2.2rem;
+}
   .headContainer {
     margin-right: 20px;
   }
+  .search {
+    width: 33%;
+  }
+  ::placeholder {
+    font-size: 2rem;
+  }
+   .imageTitle {    
+    margin-bottom: 63px;
+}
   #hebergementImg {
     height: 195px;
   }
@@ -1206,10 +1272,10 @@
     height: 195px;
   }
   #activityImg1 {
-    height: 550px;
+    height: 541px;
   }
   #activityImg2 {
-    height: 258px;
+    height:214px;
   }
   #activityImg3 {
     height: 175px;
@@ -1221,11 +1287,42 @@
     height: 200px;
   }
   #activityImg6 {
-    margin-top: 90px;
+   
     height: 200px;
   }
+  #DuFriout {
+    margin-top: 113px;
+    height: 218px;
+  }
+  #secondbigphoto {
+    height: 596px;
+}
+  #FortdePomegues{
+    position:relative;
+    top:0px;
+    height: 253px;
+    margin-bottom: 0px;
+  }
+  #lastSmall {
+    position:relative;
+    top:76px;
+    height: 253px;
+    margin-bottom: 0px;
+   
+}
+#NdeLaGard {
+  position:relative;
+    top:0px;
+    height: 253px;
+    margin-bottom: 0px;
+  border: 1px solid #ccc;
+}
+.boxSmall {   
+  box-shadow: 2px 2px var(--bgColor);
+  margin: 0 auto;
+}
   #secondSeparation {
-    margin-top: -137px;
+    margin-top: -53px;
   }
   .chart {
     margin-left: 50%;
@@ -1239,7 +1336,5 @@
   .card:nth-of-type(3) {
     margin-left: 350px;
   }
-  #DuFriout {
-    margin-top: 175px;
-  }
+ 
 }
