@@ -681,6 +681,18 @@
 
  }
  @media (min-width: 425px){
+  .descriptionTitle p {
+    font-size: 16px;
+}
+  .information p{
+    font-size: 1rem;
+}
+.chart {
+  margin-left:50%;
+}
+.startBoxPopular {
+   margin-left: 16px;
+}
   #hebergementImg {
     height:130px;
   }
