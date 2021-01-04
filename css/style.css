@@ -681,6 +681,12 @@
 
  }
  @media (min-width: 425px){
+  nav li:nth-of-type(2) {
+     margin-left: 194px;
+  }
+  nav li:nth-of-type(3) {
+     margin-left: 270px;
+}
   .descriptionTitle p {
     font-size: 16px;
 }
