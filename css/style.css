@@ -136,11 +136,6 @@
   .box figure {
     flex-direction: column;
   }
-  /*figure img {
-    width: 100%;
-    height: 120px;
-    
-  }*/
   .hebergementPopulaire{
     width:40%;
     height:120px;
@@ -587,7 +582,10 @@
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
   }
- 
+  .boxSmall:hover {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
+    color: var(--blue);
+    }
   .boxSmall figure {
     display: flex;
     flex-direction: column;
@@ -600,14 +598,14 @@
     border-top-right-radius: 15px;
   }
   .activityImg {
-    height: 135px;
+    height: 149px;
     width: 100%;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
    
   }
   .activitySmImg {
-    height: 125px;
+    height: 142px;
     width: 100%;    
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -617,17 +615,17 @@
     background-image: url("../images/activites/6.jpg");
   }
   #activityImg2 {
-    height:110px;
+    height:124px;
     background-size: cover;
     background-image: url("../images/activites/boxSmmg3a.jpg");
   }
   #activityImg3 {
-    height:118px;
+    height:134px;
     background-size: cover;
     background-image: url("../images/activites/a2a.jpg");
   }
    #activityImg4 {
-    height: 109px;
+    height: 125px;
     background-size: cover;
     background-image: url("../images/activites/5ab.jpg");
   }
