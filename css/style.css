@@ -6,9 +6,6 @@
     width: 100%;
  
   }
- 
-/*==Variables===*/
-
   /**Reset**/
   
   * {
@@ -16,8 +13,7 @@
     padding: 0;
     box-sizing: border-box;
   }
-  /*==Base css==*/
- 
+  /*==Base css==*/ 
   p,
   a,
   ul,
@@ -35,6 +31,7 @@
   li {
     list-style-type: none;
   }
+/*===Header====*/
   header {
     width: 100%;
    }
@@ -84,6 +81,29 @@
     margin-left: -42px;
     padding-right: 72px;
    }
+
+   /**/
+  .sincrire{
+    color:#0065FC;
+    font-weight:bold;
+  }
+  section {
+    margin: 20px 10px;
+  }
+  .descriptionTitle {
+    display: flex;
+    margin: 20px 15px;
+  }
+  
+  .descriptionTitle h1 {
+    padding-bottom: 10px;
+    font-size: 1.2rem;
+    color:#000;
+  }
+  .descriptionTitle p {
+    font-size:13px;
+  }
+   /*===Filter Container====*/  
   .firtsBtn .liBtn{
     width: 170px;
   }
@@ -132,87 +152,6 @@
   .box figure {
     flex-direction: column;
   }
-  .hebergementPopulaire{
-    width:40%;
-    height:120px;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-  }
-  #hebergementPopulaire1{
-   background-image:url("../images/hebergement/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
-   background-size:cover;
-  }
-  #hebergementPopulaire2{
-    background-image:url("../images/hebergement/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg");
-    background-size:cover;
-   }
-   #hebergementPopulaire3{
-    background-image:url("../images/hebergement/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
-    background-size:cover;
-   }
-                         
-  .popularBox img {
-    width: 40%;
-    height: 110px;
-  }
-  .chart{
-    margin-left:33%;
-    }
-  .popularBox.startBoxPopular:nth-of-type(1){
-      padding-top:30px;
-  }
-  .normalsize {
-    padding-top: 0px;
-  }
-  .activitesContainer {
-    flex-direction: column;
-  }
-  .separationDiv {
-    flex-direction:column;
-  }
-  .rowPhoto {
-    flex-direction: column; 
-   
-  }
- 
-  .boxSmall {
-    width: 100%;
-    height: auto;
-    margin: 10px auto;
-    border: 1px solid #ccc;
-    border-radius: 15px;
-  }
-  
-  .boxSmall img {
-    width: 100%;
-  }
-  
-  footer {
-    flex-direction: column;
-  }
-
-
-  /**/
-  .sincrire{
-    color:#0065FC;
-    font-weight:bold;
-  }
-  section {
-    margin: 20px 10px;
-  }
-  .descriptionTitle {
-    display: flex;
-    margin: 20px 15px;
-  }
-  
-  .descriptionTitle h1 {
-    padding-bottom: 10px;
-    font-size: 1.2rem;
-    color:#000;
-  }
-  .descriptionTitle p {
-    font-size:13px;
-  }
   /*Search Input*/
   
   .searchInput {
@@ -252,7 +191,7 @@
   }
   
   .btn_recherche:hover {
-    color: var(--blue);
+    color:#0065FC;
     background-color: #deebff;
     border: 1px solid #0065FC;
     cursor: pointer;
@@ -355,6 +294,61 @@
     color: #0065FC;
     border: 1px solid #ccc;
     margin-top: -2px;
+  }
+   /*===hebergements===*/
+   .hebergementPopulaire{
+    width:40%;
+    height:120px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+  #hebergementPopulaire1{
+   background-image:url("../images/hebergement/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+   background-size:cover;
+  }
+  #hebergementPopulaire2{
+    background-image:url("../images/hebergement/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg");
+    background-size:cover;
+   }
+   #hebergementPopulaire3{
+    background-image:url("../images/hebergement/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
+    background-size:cover;
+   }
+                         
+  .popularBox img {
+    width: 40%;
+    height: 110px;
+  }
+  .chart{
+    margin-left:33%;
+    }
+  .popularBox.startBoxPopular:nth-of-type(1){
+      padding-top:30px;
+  }
+  .normalsize {
+    padding-top: 0px;
+  }
+  .activitesContainer {
+    flex-direction: column;
+  }
+  .separationDiv {
+    flex-direction:column;
+  }
+  .rowPhoto {
+    flex-direction: column; 
+   
+  }
+ 
+  .boxSmall {
+    width: 100%;
+    height: auto;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+  }
+  
+  .boxSmall img {
+    width: 100%;
   }
   
   /* Hebergements*/
@@ -469,9 +463,7 @@
     font-size: 12px;
     padding-top: 5px;
     color:#0065FC;
-  }
-  
-  
+  }  
   .popularTitle {
     display: flex;
     flex-direction: row;
@@ -533,8 +525,7 @@
     height: 50px;
     line-height: 3;
     padding:6px;
-}
-    
+}   
   
   .textLeft a{
       color:#000;
@@ -635,7 +626,8 @@
   }
   /*===Footer ===*/
   footer {
-    display: flex;    
+    display: flex; 
+    flex-direction: column;   
     margin-top: 40px;
     background-color:#f2f2f2;
     padding-bottom: 40px;

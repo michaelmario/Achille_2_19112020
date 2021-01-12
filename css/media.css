@@ -694,14 +694,8 @@
 }
 .card:nth-of-type(3) {
    margin-left: 97px !important; 
+ }
 }
-}
-/*@media only screen and (width:1366px){
-#hebergementImg3 {
-  height: 120px !important;
-}
-}*/
-
 @media only screen and (min-width: 1024px) and (max-width: 1900px) {
   .container {
     width: 100%;
@@ -1192,8 +1186,7 @@
     width: 50%;
     margin-right: 10px;
   }
-  #secondSeparation {
-   
+  #secondSeparation {   
     margin-right: 10px;
     display: flex;
     flex-direction: row;
@@ -1202,7 +1195,6 @@
     top:0px;
     margin-left: 20px;
   }
-
   .Boxbig {
     background-color: #fff;
     border-radius: 15px;
@@ -1218,9 +1210,6 @@
   #firstbigphoto {
     margin-top: 2px;
   }
- /* #secondbigphoto {
-    height: 448px;
-  }*/
   .rowPhoto {
     display: flex;
     flex-direction: column;
@@ -1358,7 +1347,7 @@ nav img {
   font-size:1.5rem;
 }
 
-   .imageTitle {    
+ .imageTitle {    
     margin-bottom: 63px;
     font-size:1.8em;
 }
