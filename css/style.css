@@ -8,11 +8,7 @@
   }
  
 /*==Variables===*/
-:root {
-    --blue: #0065fc;
-    --lightBlue: #deebff85;
-    --bgColor: #f2f2f2;
-  }
+
   /**Reset**/
   
   * {
@@ -81,10 +77,10 @@
   }
   
   .active {
-    color: var(--blue);
+    color:#0065fc;
     padding-bottom: 10px;
     padding-left: 41px;
-    border-bottom: 2px solid var(--blue);
+    border-bottom: 2px solid #0065fc;
     margin-left: -42px;
     padding-right: 72px;
    }
@@ -107,8 +103,8 @@
     left: -2px;
     top: 1px; 
     font-size:19px;
-    color: var(--blue);
-    background-color: var(--lightBlue);
+    color: #0065fc;
+    background-color: #deebff85;
     border-radius: 50%;
     width: 50px;
     height: 47px;
@@ -198,7 +194,7 @@
 
   /**/
   .sincrire{
-    color: var(--blue);
+    color:#0065FC;
     font-weight:bold;
   }
   section {
@@ -248,7 +244,7 @@
     width: 50px;
     height: 51px;
     border-radius: 10px;
-    background-color: var(--blue);
+    background-color: #0065FC;
     color: white;
     font-size: 15px;
     font-weight: 700;
@@ -258,7 +254,7 @@
   .btn_recherche:hover {
     color: var(--blue);
     background-color: #deebff;
-    border: 1px solid var(--blue);
+    border: 1px solid #0065FC;
     cursor: pointer;
   }
   
@@ -290,7 +286,7 @@
     font-weight:bolder;  
   }
   .liBtn:hover {
-    background-color: var(--blue);
+    background-color: #0065FC;
     font-weight: bolder;
     color: #fff;
     transition: all 0.4s;
@@ -309,8 +305,8 @@
     left: 4px;
     top: 1px;
     font-size: large;
-    color: var(--blue);
-    background-color: var(--lightBlue);
+    color: #0065FC;
+    background-color: #deebff85;
     border-radius: 50%;
     width: 50px;
     height: 47px;
@@ -328,7 +324,7 @@
     cursor: pointer;
   }
   .btnFilter:hover {
-    color: var(--blue);
+    color: #0065FC;
     background-color: #deebff;
   }
   
@@ -356,7 +352,7 @@
     font-size: 1rem;
     margin-right: 10px;
     border-radius: 50%;
-    color: var(--blue);
+    color: #0065FC;
     border: 1px solid #ccc;
     margin-top: -2px;
   }
@@ -424,7 +420,7 @@
    
   }
   .parent_box{
-    background-color:var(--bgColor);
+    background-color:#f2f2f2;
     padding-bottom: 10px;
     margin: 0 9px;
   }
@@ -440,7 +436,7 @@
     margin-top:10px;
     width: 100%;
     height: auto;
-    background-color: var(--bgColor);  
+    background-color: #f2f2f2;  
   }
   .box {
     width: 98%;
@@ -454,7 +450,7 @@
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1),
       0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1),
       0 16px 16px rgba(0, 0, 0, 0.1);
-      color:var(--blue)
+      color:#0065FC;
   }
   figure {
     background-color: #fff;
@@ -472,7 +468,7 @@
     display: flex;
     font-size: 12px;
     padding-top: 5px;
-    color: var(--blue);
+    color:#0065FC;
   }
   
   
@@ -496,7 +492,7 @@
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1),
       0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1),
       0 16px 16px rgba(0, 0, 0, 0.1);
-      color:var(--blue);
+      color:#0065FC;
   }
   .popularBox figure {
     display: flex;
@@ -520,7 +516,7 @@
   }
   .startBoxPopular {
     display: flex;
-    color: var(--blue);
+    color: #0065FC;
     font-size: 12px;
     margin-top: -25px;
     margin-left: 29px;
@@ -568,7 +564,7 @@
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1),
       0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1),
       0 16px 16px rgba(0, 0, 0, 0.1);
-      color:var(--blue);
+      color:#0065FC;
   }
   .Boxbig figure {
     display: flex;
@@ -584,7 +580,7 @@
   }
   .boxSmall:hover {
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
-    color: var(--blue);
+    color:#0065FC;
     }
   .boxSmall figure {
     display: flex;
@@ -641,7 +637,7 @@
   footer {
     display: flex;    
     margin-top: 40px;
-    background-color:var(--bgColor);
+    background-color:#f2f2f2;
     padding-bottom: 40px;
   }
   .card {
