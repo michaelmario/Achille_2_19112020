@@ -607,7 +607,7 @@
     background-image: url("../images/activites/boxSmmg3a.jpg");
   }
   #activityImg3 {
-    height:134px;
+    height:116px;
     background-size: cover;
     background-image: url("../images/activites/a2a.jpg");
   }
@@ -617,11 +617,13 @@
     background-image: url("../images/activites/5ab.jpg");
   }
   #activityImg5 {
+    height:127px;
     background-size: cover;
     background-image: url("../images/activites/boxSmImg3.jpg");
   }
   #activityImg6 {
-       background-size: cover;
+    height:127px;
+    background-size: cover;
     background-image: url("../images/activites/boxSmImg4.jpg");
   }
   /*===Footer ===*/
@@ -659,10 +661,10 @@
     height:140px;
   }
   #activityImg5 {
-    height:136px;
+    height:148px;
   }
   #activityImg6 {
-    height:136px;
+    height:151px;
   }
 
  }
